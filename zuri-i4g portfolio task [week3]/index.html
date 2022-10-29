@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Tim Akagu">
+  <title>Portfolio</title> 
+  <link rel="stylesheet" href="style.css">
+<style>
+  html,body {font-family:"Verdana",sans-serif}
+  h1,h2,h3,h4,h5,h6 {font-family:"Segoe UI",sans-serif}
+</style>
+
+<style>
+ body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #b2b2b2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*This is the cover image  */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://scontent-lga3-2.xx.fbcdn.net/v/t1.18169-9/400187_10150578120722642_183093747_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeHsNKbNJClCyY_U3e_vLZZTgElnuUlqle-ASWe5SWqV7yHiD7guig1fodil9A2Kig4&_nc_ohc=ptuZs6VkkfcAX9OCcHZ&_nc_ht=scontent-lga3-2.xx&oh=00_AT_vgGPCMYntv7D9l6pEefldSqlviYvHi_7MwCP-21WqGA&oe=636E0BE8");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ .title { 
+   color: black;
+}
+
+</style>
+
+    
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 33%;
+  margin-top: 1px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*this is for display  */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+</head>
+  
+<!--this is the nav section    -->
+<body>
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#aboutme">About</a>
+  <a href="#services">Services</a>
+  <a href="https://zuri-i4g-portfolio-task-1.timakagu.repl.co/#contact" target="_blank">Contact</a>
+</div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px" id="home">I am Tim Akagu</h1>
+    <p>And I'm a Frontend Developer</p>
+    <button>Hire me</button>
+  </div>
+</div>
+
+<div class="about-section" id="Aboutme">
+  <h1 id="aboutme">About Me</h1>
+  
+</div>
+  
+<!--this is the about image  -->
+<div class="column">
+    <div class="card">
+      <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.18169-9/250750_10150270765332642_7383162_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ba80b0&_nc_eui2=AeGELzFo8cYmEhNS0QjxHkuAT-7Lb3TR08FP7stvdNHTwTegCenLUJm-BXLWjMl-TEI&_nc_ohc=exO1CZQ6b_MAX-MyYI-&_nc_ht=scontent-lga3-2.xx&oh=00_AT9eJHT4ZERQK3g9l-pPFch0OiF5ugofiNSJE20Sqj9llQ&oe=636D5DBB" alt="Tim Akagu" style="width:100%">
+      <div class="container">
+        <h2>Tim Akagu</h2>
+        <p class="title"><strong>Frontend Developer</strong></p>
+        <p>akaguattah@gmail.com</p>
+        
+      </div>
+    </div>
+</div>
+
+  
+<div class="column">
+    <div class="card">
+      <img src="https://media-exp1.licdn.com/dms/image/C4D22AQFUlGx8h3NVaQ/feedshare-shrink_2048_1536/0/1665750835276?e=1668643200&v=beta&t=QrqtzreeNjctvD09tyZfnvgwwnkforj4GcNJ50ik77c" alt="Programming picture" style="width:100%">
+      <div class="container">
+        <p class="title"><strong>Profession</strong></p>
+        <p>My name is Tim Akagu, I am a Frontend Developer, an IT enthusiast, who enjoys figuring out how things works and  passionate about what I do.<br> I have over 5years of experience in PC support and maintenance with over 8years of experience in  Project management, Strategic planning and operations management.   </p>
+
+        <p class="title"><strong>Hobbies</strong></p>
+        <p>Reading and watching movies (Sci-Fi, detective, and Epic, 
+  movies).<br>
+  Travelling: I like site seeing, traveling and learning new 
+  culture and lifesty.<br>
+  Listening to music and surfing the internet.</p>
+                                                   
+        </div>
+    </div>
+</div>
+
+<h2 style="text-align:center" id="services">Services</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://media-exp1.licdn.com/dms/image/C4D22AQEQ9mzJZOAK2w/feedshare-shrink_800/0/1665789232037?e=1668643200&v=beta&t=1UwbTC7iiea-FIG6bAUpSzP95R8pgiEz2GMEGhlZ6tc" alt="Services picture" style="width:100%">
+      <div class="container">
+
+  <p class="title"><strong>Services</strong></p>
+  <p>
+    <ul>
+      <li>Frontend Development</li>
+      <li>Affiliate Marketing</li>
+      <li>Business Developmment</li>
+    </ul>
+  </p>      
+  <p class="title"><strong>Porfolio</strong></p>
+   <p>   
+     <a href="https://kuzza.io/">Kuzza Crypto Project</a><br>
+     <a href="https://codepen.io/timakagu/pen/OJZwpZw">Tribute Page Zuri Project</a><br>
+     <a href="https://codepen.io/timakagu/pen/vYjzqmw">St. Benedict High School score-sheet</a>
+    </p>
+      </div>
+    </div>  
+  </div>
+</div>
+
+      
+
+  <div class="container">
+    <div style="text-align:center">
+     <h2 id="contact">Contact Me</h2>
+    </div>
+  </div>
+  
+<div class="row">
+  <div class="column"></div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Nigeria">Nigeria</option>
+          <option value="South Africa">South Africa</option>
+          <option value="China">China</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Type your message.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<footer>
+ <div class="footer">
+  <p>Copyright © 2022. All rights reserved by timakagu</p>
+ </div>
+<footer>
+
+</body>
+</html>
